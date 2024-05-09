@@ -25,7 +25,7 @@ def binary_search(lst, item):
     return f'O algoritmo achou o número {item} em {tries} tentativas.'
 
 
-my_list = list(range(0, 9999))
+my_list = list(range(0, 999))
 print(binary_search(my_list, 1))
-print(binary_search(my_list, 3566))
-print(binary_search(my_list, 7342))
+print(binary_search(my_list, 566))
+print(binary_search(my_list, 342))
