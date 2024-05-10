@@ -19,4 +19,8 @@ def ordenacao_por_selecao(arr):
     return novo_arr
 
 
-print(ordenacao_por_selecao([5, 3, 6, 2, 10, 1, 4, 7, 12, 8]))
+lista_1 = [4, 3, 8, 12, 15, 14, 20, 1, 23]
+lista_2 = [223, 453, 123, 323, 444, 98, 144, 14]
+
+print(ordenacao_por_selecao(lista_1))
+print(ordenacao_por_selecao(lista_2))
