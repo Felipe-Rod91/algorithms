@@ -9,7 +9,7 @@ def binary_search(lst, item):
         return f'O número {item} não está na lista.'
     
 # Enquanto o menor e o maior não forem o mesmo, é definido um item intermediário
-    while low < high:
+    while low <= high:
         tries += 1
         mid = (low + high) // 2
         choice = lst[mid]
